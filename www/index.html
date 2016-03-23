@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="jquery-2.1.4.min.js"></script> 
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" /> 
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>  
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+<script>
+
+</script>
+</head>
+
+<body>
+
+<div id='mainMenu' style='visibility:visible'>
+	<div id='menuButtonsContainer'>
+		<div id='startGameButton' class='menuButton' onclick='startGame();' >START</div>
+		<div id='informationButton' class='menuButton' >ABOUT</div>
+	</div>
+</div>
+
+<div id='restartMenu' style='display:none'>
+	<div id='restartMenuButtonsContainer'>
+		<div id='restartGameButton' class='menuButton' onclick='startGame();' >RESTART</div>
+		<div id='homeButton' class='menuButton' onclick='goHome()'>HOME</div>
+	</div>
+</div>
+
+
+<div id='wholeGame' style='visibility:hidden'>
+<div id='headerContainer'> 
+	<div id='logoContainer' ></div>
+	<div id='header'> 
+		
+		<div id='healthContainer'>
+			<div id='healthDiv' onclick='togglePause()'></div>
+		</div>
+		<div id='scoreContainer'>
+			<div id='scoreDiv'></div>
+		</div>
+	</div>
+</div>
+<div id='gameContainer'>
+<div id='clickDiv' onclick='clickScreen()'></div>
+<div id='clickDivColour'></div>
+	<canvas id="myCanvas"></canvas>
+</div>
+<div id='footerContainer'> 
+	<div id='footer'> 
+		<div id='pauseContainer'>
+			 <div id='pauseDiv' onclick='togglePause()'><i class="fa fa-play" style="font-size:48px"></i></div>
+		 </div> 
+		 <div id='spareContainer'>
+			 <div id='spareDiv' onclick='togglePause()'></div>
+		 </div> 
+	 </div>
+	 <div id='nameContainerContainer'>
+		<div id='nameContainer' > 
+			<div id='nameDiv' >THAT ONE GUY</div>
+		</div>
+	</div>
+	</div>
+</div>
+	<!-- <button onclick='changeSize()'> Change Size </button>
+	<button onclick='checkGoal()'> Check Goal </button>
+    <button onclick='pauseAnim()'> Pause </button>
+	<button onclick='logDonuts()'> DonutsArray </button> -->
+	
+	
+	<link href="./css/index.css" rel="stylesheet" type="text/css" />
+	<script src="./js/index_func.js" type="text/javascript"></script>
+	<script src="./js/index_var.js" type="text/javascript"></script>
+	
+	<script src="./js/index_screen.js" type="text/javascript"></script>
+	
+</body>
+
+</html>

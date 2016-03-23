@@ -1,0 +1,257 @@
+ body{
+	 overflow:hidden;
+	 margin: 0;
+ }
+ 
+ 
+ /* MAIN MENU STYLES*/
+ 
+ #mainMenu{
+	background-color : #E0F7FF; 
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	 
+	height:100%;
+	width:100%;
+ }
+ 
+  #menuButtonsContainer{
+	background-color : #E0F7FF;  
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	
+    width:50%;
+	 height:50%;	
+ }
+ 
+ #restartMenu{
+	background-color : #E0F7FF; 
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	 
+	height:100%;
+	width:100%;
+ }
+ 
+  #restartMenuButtonsContainer{
+	background-color : #E0F7FF;  
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;	
+    width:50%;
+	 height:50%;	
+ }
+ 
+ 
+ .menuButton{
+	 width:100%;
+	 height:25%;
+	 margin-top:12.5%;
+	 margin-bottom:12.5%;
+	 background-color: #9EE7FF;
+	 border: 2px #005470 solid;
+	 border-radius:20px;
+	color:white;
+	 display:flex;justify-content:center;align-items:center;
+	 font-size:50px;
+	font-family: Century Gothic, sans-serif;
+	font-weight:bold;
+ }
+ 
+ .menuButton:hover{ 
+	 opacity:0.5;
+ }
+ 
+/*GAME STYLES*/
+#background {
+  background-color: #9EE7FF;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#gameContainer {
+  background-color: white;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  
+  /* border-bottom : 4px #005470 solid;
+  border-top : 4px #005470 solid; */
+  /* border: 2px black solid; */
+}
+#clickDiv{
+	/* background-color: red; */
+  opacity:0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#clickDivColour{ 
+pointer-events:none;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+#headerContainer{
+	margin:0;
+	padding:0;
+	left:0;
+	
+}
+
+#footerContainer{
+	position:absolute;
+	bottom:0;
+	margin:0;
+	padding:0;
+	left:0;
+	
+}
+
+#header{
+	position: relative;
+	width:100%;
+	height:50%;
+	
+}
+
+#footer{
+	position: relative;
+	width:100%;
+	height:50%; 
+	border-top : 12px #005470 solid; 
+}
+
+#logoContainer{
+	 
+	background:#E0F7FF; 
+	width:100%;
+	height:50%;
+}
+
+#spareContainer{
+	 
+	float:left;
+	background:#E0F7FF;
+	width:50%;
+	height:100%;
+}
+
+#spareDiv{
+	margin-left:1.25%;
+	margin-top:1.25%;
+	width:50%;
+	height:90%;
+	background:#E0F7FF;
+	font-size:30px;
+	color:white;
+}
+
+#healthContainer{
+	 
+	float:left;
+	background:#E0F7FF;
+	width:50%;
+	height:100%; 
+}
+
+#healthDiv{
+	margin-left:1.25%;
+	margin-top:1.25%;
+	width:100%;
+	height:90%;
+	background:#E0F7FF; 
+	color:white;
+	font-size:50px;
+	font-family: Century Gothic, sans-serif;
+	font-weight:bold;
+	border-bottom : 14px #005470 solid; 
+	
+}
+
+#pauseContainer{
+	float:right;
+	background:#E0F7FF;
+	width:50%;
+	height:100%;
+}
+
+#pauseDiv{
+	margin-right:1.25%;
+	margin-top:1.25%;
+	width:50%;
+	height:90%;
+	background:#E0F7FF;
+	float:right;
+	font-size:30px;
+	color:white;
+}
+
+#nameContainerContainer{
+	display:table;
+	width:100%;
+	height:50%;	 
+}
+#nameContainer{
+	display:table-cell;vertical-align:middle;
+	background:#E0F7FF;	
+	color:white;
+	font-size:20px;
+	font-family: Century Gothic, sans-serif;
+	font-weight:bold;
+    
+}
+
+#nameDiv{
+	text-align:center;
+}
+
+#scoreContainer{
+	 
+	float:right;
+	background:#E0F7FF;
+	width:50%;
+	height:100%;
+}
+
+#scoreDiv{
+	margin-right:1.25%;
+	margin-top:1.25%;
+	width:100%;
+	height:90%;
+	background:#E0F7FF;
+	float:right; 
+	color:white;
+	text-align:right; 
+	font-size:50px;
+	font-family: Century Gothic, sans-serif;
+	font-weight:bold;
+	border-bottom : 14px #005470 solid; 
+}
+ 
